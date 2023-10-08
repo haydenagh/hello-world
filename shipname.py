@@ -15,7 +15,9 @@ else:
     firstName = name2
     secName = name1
 
+# First name goes from the first char to the middle char
 firstName = firstName[0:int(len(firstName)/2)]
+# Second name goes from the half char to the end char
 secName = secName[int(len(secName)/2):]
 
 print(f"Your ship name is: {firstName}{secName}")
